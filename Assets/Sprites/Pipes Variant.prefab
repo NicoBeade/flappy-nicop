@@ -13,15 +13,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3519773712529436681, guid: 82f4999ab09b76f46a5b0e845d4f1fc7, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.3
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 3519773712529436681, guid: 82f4999ab09b76f46a5b0e845d4f1fc7, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.3
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 3519773712529436681, guid: 82f4999ab09b76f46a5b0e845d4f1fc7, type: 3}
       propertyPath: m_LocalScale.z
       value: 1.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3519773712529436682, guid: 82f4999ab09b76f46a5b0e845d4f1fc7, type: 3}
+      propertyPath: deadZone
+      value: -10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3519773712529436682, guid: 82f4999ab09b76f46a5b0e845d4f1fc7, type: 3}
+      propertyPath: moveSpeed
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5624518323477965680, guid: 82f4999ab09b76f46a5b0e845d4f1fc7, type: 3}
       propertyPath: m_RootOrder

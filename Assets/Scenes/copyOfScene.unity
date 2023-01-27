@@ -154,7 +154,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   figure: {fileID: 5920345799130211952, guid: 39641c740d545464598da90aa3087987, type: 3}
-  spawnRate: 6
+  spawnRate: 10
 --- !u!114 &269981394
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -167,7 +167,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2532ab056660f79488f8a97c1d112cf1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  figure: {fileID: 3519773712529436680, guid: 82f4999ab09b76f46a5b0e845d4f1fc7, type: 3}
+  figure: {fileID: 5661497242552496130, guid: b1b54f2790f36a44ebf222d1c1c8d465, type: 3}
   spawnRate: 2
 --- !u!4 &269981395
 Transform:
@@ -177,8 +177,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 269981392}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 24.35, y: 0.1, z: 0}
-  m_LocalScale: {x: 1.1937338, y: 1.4043926, z: 1.4043926}
+  m_LocalPosition: {x: 20, y: 0.1, z: 0}
+  m_LocalScale: {x: 1.0987723, y: 1.2926731, z: 1.2926731}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -237,7 +237,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 6.692075
+  orthographic size: 6
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -300,7 +300,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myRigidbody: {fileID: 1815313886}
-  flapStrength: 6
+  flapStrength: 4
 --- !u!50 &1815313886
 Rigidbody2D:
   serializedVersion: 4
