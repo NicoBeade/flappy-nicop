@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class nicopMovement : MonoBehaviour{
+public class NicopMovement : MonoBehaviour{
 
     public Rigidbody2D myRigidbody;
     public float flapStrength;
