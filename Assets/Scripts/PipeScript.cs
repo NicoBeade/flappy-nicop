@@ -11,7 +11,7 @@ public class PipeScript : MovingFigure
     }
     public override void Update()
     {
-        move();
+        base.Update();
         //hago lo que sea particular a la clase PipeScript
     }
 

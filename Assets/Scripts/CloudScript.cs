@@ -13,7 +13,7 @@ public class CloudScript : MovingFigure
     // Update is called once per frame
     public override void Update()
     {
-        move();
+        base.Update();
         
         // lo que sea particular de Cloud
     }
